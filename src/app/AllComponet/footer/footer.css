@@ -1,0 +1,39 @@
+#scroll-top{
+    background-color: var(--footer-dark-color);
+    color:var(  --bs-light);
+    width:60px;
+    margin-right: 10px;
+    height: 60px;
+    
+}
+.foot{
+   
+      bottom:0;
+       width:100%;
+      
+}
+footer{
+     height: 300px;
+}
+i{
+    font-size: 40px;
+    padding:10px;
+}
+.face{
+    color:blue;
+}
+.wat{
+    color:green;
+}
+a{
+    text-decoration: none !important;
+}
+@media screen and (max-width: 800px) {
+    .foot{
+        height: 500px;
+       overflow: hidden;
+    }
+    .Service , .about{
+       display: none;
+    }
+}

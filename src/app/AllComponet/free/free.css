@@ -1,0 +1,119 @@
+
+    
+
+    body {
+      font-family: 'Cairo', sans-serif;
+      background: var(--footer-light-color);
+      color: white;
+      overflow-x: hidden;
+    }
+
+    .promo-section {
+      background: linear-gradient(135deg, var(--footer-dark-color) 0%, var(--footer-light-color) 100%);
+      position: relative;
+      padding: 50px 20px;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .promo-section::before {
+      content: "";
+      position: absolute;
+      top: -100px;
+      left: -100px;
+      width: 400px;
+      height: 400px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.1);
+    }
+
+    .promo-img {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      border: 6px solid #fff;
+      overflow: hidden;
+      margin: 0 auto 20px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    }
+
+    .promo-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    h2 {
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 15px;
+    }
+
+    p {
+      color: #f1f1f1;
+      line-height: 1.8;
+      font-size: 1.05rem;
+      margin-bottom: 25px;
+    }
+
+    .highlight {
+      color: #ffd700;
+      font-weight: 800;
+      font-size: 1.2rem;
+    }
+
+    .bottom-box {
+      background: #fff;
+      border-radius: 30px;
+      padding: 25px;
+      margin-top: 20px;
+      color: var(--footer-dark-color);
+      text-align: center;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    }
+
+    .bottom-box h3 {
+      font-weight: 700;
+      color: var(--footer-dark-color);
+    }
+
+    .btn-primary-custom {
+      background: var(--footer-dark-color);
+      color: #fff;
+      border-radius: 30px;
+      padding: 10px 30px;
+      border: none;
+      transition: 0.3s;
+    }
+
+    .btn-primary-custom:hover {
+      background: var(--footer-light-color);
+    }
+
+    .btn-outline-custom {
+      background: transparent;
+      color: var(--footer-dark-color);
+      border: 2px solid var(--footer-dark-color);
+      border-radius: 30px;
+      padding: 10px 30px;
+      transition: 0.3s;
+    }
+
+    .btn-outline-custom:hover {
+      background: var(--footer-dark-color);
+      color: white;
+    }
+
+    @media (max-width: 768px) {
+      .promo-img {
+        width: 180px;
+        height: 180px;
+      }
+      h2 {
+        font-size: 1.6rem;
+      }
+      p {
+        font-size: 0.95rem;
+      }
+    }
+ 

@@ -1,0 +1,252 @@
+
+
+
+        .container {
+            width: 100%;
+            margin-top: 10%;
+
+            /* max-width: 1400px; */
+            position: relative;
+            z-index: 2;
+        }
+
+        .banner {
+            background: var(--footer-light-color);
+            backdrop-filter: blur(10px);
+            border-radius: 30px;
+            padding: 60px 50px;
+            box-shadow: 
+                0 20px 60px rgba(0,0,0,0.5),
+                inset 0 1px 0 rgba(255,255,255,0.1);
+            border: 1px solid rgba(255,255,255,0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .banner::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                radial-gradient(circle at 30% 40%, rgba(255,255,255,0.03) 1px, transparent 1px),
+                radial-gradient(circle at 70% 60%, rgba(255,255,255,0.03) 1px, transparent 1px);
+            background-size: 20px 20px, 20px 20px;
+            background-position: 0 0, 10px 10px;
+            pointer-events: none;
+        }
+
+        .content-section {
+            text-align: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .logo-section {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 15px 40px;
+            border-radius: 50px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+            animation: glow 2s ease-in-out infinite;
+        }
+
+        @keyframes glow {
+            0%, 100% { box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4); }
+            50% { box-shadow: 0 10px 40px rgba(102, 126, 234, 0.6); }
+        }
+
+        h1 {
+            font-size: clamp(2.5rem, 6vw, 5rem);
+            background: linear-gradient(135deg, #ffffff 0%, #e0e0e0 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 900;
+            margin-bottom: 40px;
+            line-height: 1.2;
+            text-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            animation: fadeInDown 1s ease-out;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .description {
+            font-size: clamp(1.3rem, 3vw, 2.2rem);
+            color: #b8c5d6;
+            line-height: 1.8;
+            margin-bottom: 50px;
+            animation: fadeInUp 1s ease-out 0.3s backwards;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-bottom: 50px;
+            animation: fadeIn 1s ease-out 0.6s backwards;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .service-card {
+            background: rgba(255,255,255,0.05);
+            padding: 30px;
+            border-radius: 20px;
+            border: 1px solid rgba(255,255,255,0.1);
+            transition: all 0.4s ease;
+            cursor: pointer;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            background: rgba(255,255,255,0.1);
+            box-shadow: 0 15px 40px rgba(102, 126, 234, 0.3);
+            border-color: rgba(102, 126, 234, 0.5);
+        }
+
+        .service-icon {
+            font-size: 3rem;
+            margin-bottom: 15px;
+            display: block;
+        }
+
+        .service-card h3 {
+            color: #ffffff;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .service-card p {
+            color: #a0aec0;
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 18px 50px;
+            border-radius: 50px;
+            font-size: 1.3rem;
+            font-weight: bold;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+            border: none;
+            cursor: pointer;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 15px 40px rgba(102, 126, 234, 0.6);
+        }
+
+        .edit-panel {
+            background: rgba(20, 20, 30, 0.95);
+            border-radius: 25px;
+            padding: 40px;
+            margin-top: 50px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .edit-panel h2 {
+            color: #667eea;
+            font-size: 2rem;
+            margin-bottom: 30px;
+            text-align: right;
+        }
+
+        .input-group {
+            margin-bottom: 25px;
+        }
+
+        label {
+            display: block;
+            color: #b8c5d6;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-align: right;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 15px 20px;
+            background: rgba(255,255,255,0.05);
+            border: 2px solid rgba(255,255,255,0.1);
+            border-radius: 15px;
+            color: #ffffff;
+            font-size: 1.1rem;
+            font-family: inherit;
+            direction: rtl;
+            transition: all 0.3s ease;
+        }
+
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: #667eea;
+            background: rgba(255,255,255,0.08);
+            box-shadow: 0 0 20px rgba(102, 126, 234, 0.3);
+        }
+
+        textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        .update-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.2rem;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: bold;
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+        }
+
+        .update-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 35px rgba(102, 126, 234, 0.6);
+        }
+
+        @media (max-width: 768px) {
+            .banner {
+                padding: 40px 30px;
+            }
+            
+            .edit-panel {
+                padding: 30px 20px;
+            }
+        }
+  

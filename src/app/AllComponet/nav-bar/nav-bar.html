@@ -1,0 +1,76 @@
+<nav class="navbar navbar-expand-lg bg-white shadow-sm py-3 px-4">
+  <div class="container-fluid">
+
+    <!-- الشعار -->
+    <a class="navbar-brand fw-bold fs-2" href="#">
+
+عوالم تي التعليمية
+    </a>
+ 
+
+    <!-- زر التبديل في الشاشات الصغيرة -->
+    <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed"
+      aria-controls="mainNavbar" aria-expanded="!isCollapsed" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- القائمة -->
+    <div [ngbCollapse]="isCollapsed" class="collapse navbar-collapse" id="mainNavbar">
+
+      <div class="d-flex w-100 flex-lg-row flex-column align-items-lg-center justify-content-between gap-3">
+
+        <!-- البحث -->
+        <div class="flex-grow-1 d-flex justify-content-lg-center">
+       
+        </div>
+
+        <!-- روابط القائمة -->
+        <ul class="navbar-nav mb-2 mb-lg-0 d-flex align-items-lg-center flex-column flex-lg-row gap-3">
+
+           <li class="nav-item">
+            <a class="nav-link text-dark" (click)="scrollToSection('free')">
+
+              حصه مجانيه
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" (click)="scrollToSection('service')">الخدمات</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-dark"   (click)="scrollToSection('courses')">الباقات</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link text-dark" routerLink="/">الصفحة الرئيسية</a>
+          </li> -->
+           <li class="nav-item">
+            <a class="nav-link text-dark" (click)="scrollToSection('headerthree')" >
+              
+            قيمنا 
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-dark" (click)="scrollToSection('contact')">
+              
+          تواصل معنا
+            </a>
+          </li>
+
+          <!-- <li>
+            <button (click)="switchLanguage('ar')">عربي</button>
+<button (click)="switchLanguage('en')">English</button>
+
+          </li> -->
+          <!-- <li class="nav-item">
+            <a class="nav-link text-dark" routerLink="/login">تسجيل دخول</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-outline-primary rounded-pill px-4" routerLink="/signup">إنشاء حساب</a>
+          </li> -->
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</nav>

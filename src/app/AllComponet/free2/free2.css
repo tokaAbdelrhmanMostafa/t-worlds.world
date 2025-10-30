@@ -1,0 +1,116 @@
+
+        body {
+            background-color: #f5f7fa;
+            padding: 40px 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       
+        }
+
+        .section-title {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .section-title h2 {
+      font-weight: 800;
+      color: var(--footer-dark-color);
+      font-size: 2.2rem;
+      position: relative;
+      display: inline-block;
+    }
+        .services-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .service-card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+        }
+
+        .icon-wrapper {
+            width: 90px;
+            height: 90px;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            position: relative;
+            font-size: 45px;
+        }
+
+        .icon-wrapper.orange {
+            background-color: #fef0e6;
+            color: #ff9500;
+        }
+
+        .icon-wrapper.mint {
+            background-color: #d4f5f0;
+            color: #00b8a9;
+        }
+
+        .icon-wrapper.green {
+            background-color: #d4f0e8;
+            color: #00c853;
+            position: relative;
+        }
+
+        .live-badge {
+            position: absolute;
+            top: -8px;
+            left: -8px;
+            background-color: #ff4444;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .icon-wrapper.blue {
+            background-color: #e3f2fd;
+            color: #5b7eff;
+        }
+
+        .service-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 12px;
+        }
+
+        .service-description {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .service-card {
+                padding: 20px;
+            }
+
+            .icon-wrapper {
+                width: 70px;
+                height: 70px;
+                font-size: 35px;
+            }
+
+            .service-title {
+                font-size: 16px;
+            }
+        }
+   
