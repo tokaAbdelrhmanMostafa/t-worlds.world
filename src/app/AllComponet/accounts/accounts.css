@@ -1,0 +1,44 @@
+
+
+/* Custom Styles */
+.contact-section {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.icon-circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,.1);
+}
+
+.icon-circle:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0.75rem 1.5rem rgba(0,0,0,.15);
+}
+
+.icon-circle i {
+  transition: transform 0.3s ease;
+}
+
+.icon-circle:hover i {
+  transform: scale(1.2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .icon-circle {
+    width: 75px;
+    height: 75px;
+  }
+
+  .display-4 {
+    font-size: 2rem;
+  }
+}
+

@@ -1,0 +1,106 @@
+{
+  "HOME": "Awalem T Educational Platform",
+  "FREE_CLASS": "Free Class",
+  "SERVICES": "Services",
+  "PACKAGES": "Packages",
+  "VALUES": "Our Values",
+  "CONTACT": "Contact Us",
+  "PLATFORM": "Awalem T Educational Platform",
+  "PLATFORM_DESC": "An interactive licensed educational platform providing enjoyable and curriculum-aligned content for students from kindergarten to high school."
+,
+  "PLATFORM_DESC_FULL": "An interactive licensed educational platform that offers enjoyable, curriculum-aligned content based on Saudi, international, and private curricula for children from kindergarten to high school. Exciting and engaging lessons have been added, including specialized sessions for university students tailored to their programs. Group classes, educational games, smart motivation, and a unique, delightful learning journey."
+,
+  "STAGES_TITLE": "Curriculum Services",
+  "STAGE_KG_TITLE": "Kindergarten",
+  "STAGE_KG_DESC": "The foundation and preparation stage for building the child’s personality.",
+  "STAGE_KG_NOTE": "We provide all curricula at the best prices.",
+  "STAGE_PRIMARY_TITLE": "Primary Stage",
+  "STAGE_PRIMARY_DESC": "Building the basics and developing early skills.",
+  "STAGE_MIDDLE_TITLE": "Intermediate Stage",
+  "STAGE_MIDDLE_DESC": "Developing abilities and expanding knowledge horizons.",
+  "STAGE_SECONDARY_TITLE": "Secondary Stage",
+  "STAGE_SECONDARY_DESC": "Preparing for university and building the academic future.",
+
+  "LEARNING_CHILD": "A Child Who Learns",
+  "NO_BOREDOM": "Say Goodbye to Boredom",
+  "LEARNING_DESC": "Help your child learn in a fun environment and overcome shyness.",
+  "EARLY_LEARNING": "Take advantage of the ideal age for language learning to help your child speak fluently early on.",
+
+  "PRIVATE_LESSONS": "Private Lessons",
+  "FREE_TRIAL": "Contact us now to get a free trial class.",
+
+  "SERVICES_TITLE": "Our Educational Services",
+  "SERVICES_DESC": "We offer a comprehensive range of educational and developmental services to meet the needs of all levels.",
+
+  "SERVICE_SCHOOL": "Tutoring and Academic Support",
+  "SERVICE_SCHOOL_DESC": "Flexible one-on-one lessons tailored to your learning needs.",
+
+  "SERVICE_SKILLS": "Talents and Skills",
+  "SERVICE_SKILLS_DESC": "A dedicated space to develop personal talents across different fields.",
+
+  "SERVICE_GROUP": "Group Lessons",
+  "SERVICE_GROUP_DESC": "Interactive group learning sessions in a collaborative environment.",
+
+  "SERVICE_TRAINING": "Training Courses",
+  "SERVICE_TRAINING_DESC": "Comprehensive educational programs to develop specific skills in various areas.",
+
+  "PACKAGES_TITLE": "Packages",
+  "PACKAGES_DESC": "Choose the course that suits you best.",
+
+  "COURSE_PROGRAMMING": "Programming Course",
+  "COURSE_PROGRAMMING_DESC": "Python and coding classes — easy and simple explanations.",
+
+  "COURSE_DIVISION": "Division Course",
+  "COURSE_DIVISION_DESC": "Division lessons with simple, clear explanations.",
+
+  "COURSE_QURAN": "Qur’an Memorization",
+  "COURSE_QURAN_DESC": "Qur’an memorization sessions with clear and easy teaching.",
+
+  "COURSE_FRENCH": "French Course",
+  "COURSE_FRENCH_DESC": "French lessons explained clearly and simply.",
+
+  "COURSE_CHINESE": "Chinese Course",
+  "COURSE_CHINESE_DESC": "Chinese lessons explained simply and effectively.",
+
+  "COURSE_ARABIC": "Arabic Course",
+  "COURSE_ARABIC_DESC": "Arabic writing and grammar lessons — foundational and easy.",
+
+  "COURSE_DRAWING": "Drawing Course",
+  "COURSE_DRAWING_DESC": "Art lessons for kids and adults — learn drawing professionally.",
+
+  "COURSE_MULTIPLICATION": "Multiplication Table",
+  "COURSE_MULTIPLICATION_DESC": "Learn multiplication easily and effectively.",
+
+  "COURSE_MENTAL": "Mental Math",
+  "COURSE_MENTAL_DESC": "Mental math lessons explained simply and clearly."
+,
+  "VALUES_TITLE": "Our Values",
+  "VALUE_PROFESSIONALISM_TITLE": "Professionalism",
+  "VALUE_PROFESSIONALISM_DESC": "We are committed to the highest standards of quality in every service we provide.",
+  "VALUE_TRUST_TITLE": "Reliability",
+  "VALUE_TRUST_DESC": "We keep our promises and strive for complete customer satisfaction.",
+  "VALUE_CREATIVITY_TITLE": "Creativity",
+  "VALUE_CREATIVITY_DESC": "We constantly innovate and create new solutions tailored to each client’s needs.",
+  "VALUE_COMMITMENT_TITLE": "Commitment",
+  "VALUE_COMMITMENT_DESC": "We respect time and deadlines, executing tasks with precision and professionalism.",
+
+  "VISION_TITLE": "Our Vision",
+  "VISION_DESC": "To be the leading Saudi organization providing comprehensive and innovative services that meet the needs of individuals, families, and institutions, keeping pace with technological advancements in various fields.",
+
+  "MISSION_TITLE": "Our Mission",
+  "MISSION_DESC": "To deliver high-quality services that combine professionalism and simplicity, focusing on customer comfort and trust through a qualified and creative team striving for excellence in every field we serve.",
+
+  "CONTACT_TITLE": "Contact Us",
+  "CONTACT_DESC": "We are here to answer your questions through the following communication channels.",
+  "CONTACT_NOTE": "We reply to your messages within 24 hours.",
+
+  "OUR_SERVICES": "Our Services",
+  "OUR_SERVICES_LIST": [
+    "📚 Curricula for all educational levels",
+    "📝 Various educational packages"
+  ],
+
+  "ABOUT_US": "About Us",
+  "ABOUT_DESC": "An interactive licensed educational platform that offers engaging and curriculum-aligned content based on Saudi, international, and private curricula for children from kindergarten to high school."
+}
+
